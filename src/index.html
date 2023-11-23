@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html class="page" lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My portfolio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Jost&family=Poppins&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="/node_modules/normalize.css/normalize.css">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <header class="page-header">
+    <nav class="navigation">
+      <a href="index.html">
+        <img src="./img/logo-1.svg" alt="my logo"  width="251" height="71">
+      </a>
+      <ul class="list-menu">
+        <li><a class="link-menu" href="#about-me">About Me</a></li>
+        <li><a class="link-menu" href="#project">Projects</a></li>
+        <li><a class="link-menu" href="#contacts">Contacts</a></li>
+        <li><a class="link-menu" href="#hire-me">Hire Me</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h1 class="sr-only">
+        my design portfolio
+      </h1>
+      <div class="about-me">
+        <div class="container-for-info">
+          <h2 class="greeting">
+            Welcome To My PortFolio
+          </h2>
+          <p class="about-myself">
+            Hi, I am Steven <br>
+            UI/UX <span class="about-myself about-myself-yellow">Desginer</span>
+          </p>
+          <p class="detailed-story">
+            Lorem Ipsum dolar sit amet, consectetur adipicsing elit.
+            Locus odio et, plateo erat est sed turpis hoc <br> equit
+          </p>
+          <div class="container-for-buttons">
+            <button
+              class="button button-hire-me"
+              type="button"
+            >
+              Hire Me
+            </button>
+            <button
+              class="button button-my-project"
+              type="button"
+            >
+              My Project
+            </button>
+          </div>
+        </div>
+        <div class="container-for-foto">
+          <img src="./img/my-photo.png" alt="my photo" width="564" height="564">
+        </div>
+      </div>
+    </section>
+
+    <section id="about-me">
+      <div class="container-about-me">
+        <div class="container-about-me-description">
+          <h2 class="about-me-title">
+            About Me
+          </h2>
+          <p class="about-me-description">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+            when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has .
+          </p>
+          <button class="button button-hire-me" type="button">My Project</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="project">
+      <div class="container-my-projects">
+        <h2 class="my-projects-title">
+          My Projects
+        </h2>
+        <p class="my-projects-description">
+          Lorem Ipsum is simply dummy text of the printing
+        </p>
+        <ul class="my-projects-list">
+          <li>
+            <a href="#">
+              <img src="./img/my-project-1.jpg" alt="charting application" width="246" height="180">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./img/my-project-2.jpg" alt="auto store" width="246" height="180">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./img/my-project-1.jpg" alt="charting application" width="246" height="180">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./img/my-project-3.jpg" alt="beauty salon" width="246" height="180">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./img/my-project-3.jpg" alt="beauty salon" width="246" height="180">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./img/my-project-3.jpg" alt="beauty salon" width="246" height="180">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./img/my-project-4.jpg" alt="seafood products" width="246" height="180">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./img/my-project-4.jpg" alt="seafood products" width="246" height="180">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./img/my-project-4.jpg" alt="seafood products" width="246" height="180">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contacts">
+      <div class="container-contact-me">
+        <h2
+          class="contact-me-title"
+        >
+          Contact Me
+        </h2>
+        <p class="contact-me-description">Lorem Ipsum is simply dummy text of the printing</p>
+        <div class="wrapper-form">
+          <form
+            class="contact-form"
+            action="http://httpbin.org"
+            method="post"
+            id="hire-me"
+          >
+            <input
+              class="element-forms"
+              type="email"
+              name="email"
+              placeholder="Email"
+              required
+            >
+            <input
+              class="element-forms"
+              type="password"
+              name="password"
+              placeholder="Password"
+              required
+            >
+            <textarea
+              class="element-forms "
+              cols="20"
+              rows="10"
+              placeholder="Message.."
+            ></textarea>
+            <button
+              class="submit-form"
+              type="submit"
+            >
+              Contact
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="container-footer">
+    <div class="navigation-wrapper">
+      <section>
+        <h3 class="sr-only">subscription form</h3>
+        <a href="index.html">
+          <img src="./img/logo-2.svg" alt="my logo" width="386" height="72">
+        </a>
+          <form
+          class="form-subscribe"
+          action="http://httpbin.org"
+          method="post"
+        >
+          <input
+            class="form-subscribe-input"
+            type="email"
+            name="email"
+            placeholder="Email"
+          >
+          <button
+            class="subscribe-button"
+            type="submit"
+          >
+            Subscribe
+          </button>
+        </form>
+      </section>
+
+      <div class="navigation-wrapper">
+        <section>
+          <h3 class="section-title">Platform</h3>
+          <ul class="list-menu-in-footer">
+            <li class="item-menu-in-footer">
+              <a href="#">Home</a>
+            </li>
+            <li class="item-menu-in-footer">
+              <a href="#">Overview</a>
+            </li>
+            <li class="item-menu-in-footer">
+              <a href="#">Pricing</a>
+            </li>
+            <li class="item-menu-in-footer">
+              <a href="#">About</a>
+            </li>
+          </ul>
+        </section>
+
+        <section>
+          <h3 class="section-title">Help</h3>
+          <ul class="list-menu-in-footer">
+            <li class="item-menu-in-footer">
+              <a href="#">How It Works?</a>
+            </li>
+            <li class="item-menu-in-footer">
+              <a href="#">Pay?</a>
+            </li>
+            <li class="item-menu-in-footer">
+              <a href="#">Question?</a>
+            </li>
+            <li class="item-menu-in-footer">
+              <a href="#">Contact?</a>
+            </li>
+          </ul>
+        </section>
+
+        <section>
+          <h3 class="section-title">
+            Contact
+          </h3>
+          <div>
+            <a
+              class="my-phone"
+              href="tel:+00012346789"
+            >
+              (+000) 1234-6789
+            </a>
+            <p class="address">
+              116 Archlor Road Broadlaband,
+              NewYork (NYC) 1205
+            </p>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <div class="general-information-box">
+      <p class="copyrighted">
+        CopyRighted 2020-2023 All Rights Reserved.
+      </p>
+      <ul class="block-social-networks">
+        <li>
+          <a
+            class="social-network social-network-youtube"
+            href="#"
+            title="youtube"
+          ></a>
+        </li>
+        <li>
+          <a
+            class="social-network social-network-instagram"
+            href="#"
+            title="instagram"
+          ></a>
+        </li>
+        <li>
+          <a
+            class="social-network social-network-facebook"
+            href="#"
+            title="facebook"
+          ></a>
+        </li>
+        <li>
+          <a
+            class="social-network social-network-linkedin"
+            href="#"
+            title="linkedin"
+          ></a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>
